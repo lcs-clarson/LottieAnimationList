@@ -16,6 +16,7 @@
 		CB9657482B69603B0034A9ED /* Soccer.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9657472B69603B0034A9ED /* Soccer.json */; };
 		CB96574A2B6960420034A9ED /* Football.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9657492B6960420034A9ED /* Football.json */; };
 		CB96574C2B69604A0034A9ED /* Hockey.json in Resources */ = {isa = PBXBuildFile; fileRef = CB96574B2B69604A0034A9ED /* Hockey.json */; };
+		CB96574E2B6960A60034A9ED /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB96574D2B6960A50034A9ED /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CB9657472B69603B0034A9ED /* Soccer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Soccer.json; path = ../../../../../Downloads/Soccer.json; sourceTree = "<group>"; };
 		CB9657492B6960420034A9ED /* Football.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Football.json; path = ../../../../../Downloads/Football.json; sourceTree = "<group>"; };
 		CB96574B2B69604A0034A9ED /* Hockey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Hockey.json; path = ../../../../../Downloads/Hockey.json; sourceTree = "<group>"; };
+		CB96574D2B6960A50034A9ED /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		CB0A60C62B67F4DA00698AB3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CB96574D2B6960A50034A9ED /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB96574E2B6960A60034A9ED /* FavouriteAnimation.swift in Sources */,
 				CB0A60B92B67F47800698AB3 /* LottieAnimationListApp.swift in Sources */,
 				CB0A60C92B67F51000698AB3 /* AnimationsListView.swift in Sources */,
 				CB9657452B695F850034A9ED /* LottieView.swift in Sources */,
