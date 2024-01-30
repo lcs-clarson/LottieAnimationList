@@ -13,6 +13,9 @@
 		CB0A60C92B67F51000698AB3 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0A60C82B67F51000698AB3 /* AnimationsListView.swift */; };
 		CB9657432B695F130034A9ED /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CB9657422B695F130034A9ED /* Lottie */; };
 		CB9657452B695F850034A9ED /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9657442B695F850034A9ED /* LottieView.swift */; };
+		CB9657482B69603B0034A9ED /* Soccer.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9657472B69603B0034A9ED /* Soccer.json */; };
+		CB96574A2B6960420034A9ED /* Football.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9657492B6960420034A9ED /* Football.json */; };
+		CB96574C2B69604A0034A9ED /* Hockey.json in Resources */ = {isa = PBXBuildFile; fileRef = CB96574B2B69604A0034A9ED /* Hockey.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CB0A60BF2B67F47A00698AB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB0A60C82B67F51000698AB3 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		CB9657442B695F850034A9ED /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		CB9657472B69603B0034A9ED /* Soccer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Soccer.json; path = ../../../../../Downloads/Soccer.json; sourceTree = "<group>"; };
+		CB9657492B6960420034A9ED /* Football.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Football.json; path = ../../../../../Downloads/Football.json; sourceTree = "<group>"; };
+		CB96574B2B69604A0034A9ED /* Hockey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Hockey.json; path = ../../../../../Downloads/Hockey.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				CB0A60B82B67F47800698AB3 /* LottieAnimationListApp.swift */,
+				CB9657462B695FD10034A9ED /* Animations */,
 				CB0A60C72B67F4E800698AB3 /* Views */,
 				CB0A60C62B67F4DA00698AB3 /* Model */,
 				CB0A60BC2B67F47A00698AB3 /* Assets.xcassets */,
@@ -86,6 +93,16 @@
 				CB9657442B695F850034A9ED /* LottieView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CB9657462B695FD10034A9ED /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CB9657472B69603B0034A9ED /* Soccer.json */,
+				CB9657492B6960420034A9ED /* Football.json */,
+				CB96574B2B69604A0034A9ED /* Hockey.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +169,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB96574A2B6960420034A9ED /* Football.json in Resources */,
+				CB9657482B69603B0034A9ED /* Soccer.json in Resources */,
 				CB0A60C02B67F47A00698AB3 /* Preview Assets.xcassets in Resources */,
 				CB0A60BD2B67F47A00698AB3 /* Assets.xcassets in Resources */,
+				CB96574C2B69604A0034A9ED /* Hockey.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
